@@ -17,20 +17,21 @@ body {
 nav {
   margin: 0 auto;
   padding: 10px 0 15px 15px;
-  position: fixed;
+  position: static;
   width: 420px;
   background-color: tan;
 }
 
-.restaurant-list {
+.route-list {
   padding-top: 45px;
-  background-color: #494b57;
+  background-color: tan;
 }
 
 .location {
   background-color: teal;
   padding: 1%;
   margin-bottom: 1px;
+
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -38,6 +39,8 @@ nav {
 
 .location:hover {background-color:#89AEB3; }
 .content:hover {background-color: #89AEB3;}
+
+.location1:hover {background-color:#89AEB3; }
 
 .content {
   width: 70%;
@@ -53,14 +56,73 @@ nav {
 
 h1 {
   font-size: 20px;
-  margin-bottom: 1;
 }
-h2 {
-  display: inline;
-  margin: 1em;
-  padding-bottom:  20px;
-}
+
 h3 {
   font-weight: 500;
   display: inline;
+}
+.menu{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.route{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  font-size: 14px;
+
+}
+.route1{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0px;
+  font-size: 14px;
+}
+.route2{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 15px;
+  font-size: 14px;
+}
+.route4{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 5px;
+  font-size: 14px;
+}
+.menu{
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1px;
+  padding: 10px;
+
+}
+
+.location1 {
+  background-color: teal;
+  padding: 1%;
+  margin-bottom: 1px;
+  width: 100%;
+  display: flex;
+  height:50px;
+  justify-content: space-between;
+}
+.arrow2{
+  padding-top: 3%;
+  padding-right: 4%;
+}
+.arrow1{
+  padding-top: 33%;
+  padding-right:4% ;
+}
+.arrow3{
+  padding-top: 33%;
+  padding-right: 4%;
 }
